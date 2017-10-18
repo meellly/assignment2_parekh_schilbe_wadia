@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/restaurant_background"
+    tools:context="edu.cse4230.schilbe.restaurantapp.FeedbackActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText19"
+            android:layout_alignBottom="@+id/editText19"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:text="Yourname"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText19"
+            android:layout_width="272dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:background="@drawable/rounded_txt"
+            android:hint="SladeDesign"
+            android:paddingLeft="10dp"
+            android:textColorHint="#C0C0C0"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText1"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_toLeftOf="@+id/editText1"
+            android:layout_toStartOf="@+id/editText1"
+            android:text="Email"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="265dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/editText19"
+            android:layout_alignStart="@+id/editText19"
+            android:layout_below="@+id/editText19"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_txt"
+            android:hint="email@email.com"
+            android:paddingLeft="10dp"
+            android:textColorHint="#C0C0C0"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/editText1"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="11dp"
+            android:text="Message"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText0"
+            android:layout_width="265dp"
+            android:layout_height="350dp"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/editText1"
+            android:layout_alignTop="@+id/textView2"
+            android:background="@drawable/rounded_txt"
+            android:gravity="top"
+            android:hint="Hello Word"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColorHint="#C0C0C0"
+            android:textSize="19sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

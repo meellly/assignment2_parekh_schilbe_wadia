@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionBarBlue_100">#262D3F</color>
+    <color name="actionBarBlue">#90262D3F</color>
+    <color name="backgroundGrey">#424858</color>
+    <color name="buttonOrange">#F7941D</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary">#424858</color>
+    <color name="colorPrimaryDark">#262D3F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

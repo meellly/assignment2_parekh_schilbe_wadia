@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MainMenu_Image_Width">80dp</dimen>
+    <dimen name="MainMenu_Image_Height">80dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
